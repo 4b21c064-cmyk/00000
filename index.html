@@ -3,9 +3,24 @@
   <head>
     <script src="https://cdn.jsdelivr.net/npm/p5@1.11.11/lib/p5.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/p5@1.11.11/lib/addons/p5.sound.min.js"></script>
-    
-    
-    
+    <!--禁止縮放-->
+   <meta name="viewport" content="width=device-width, initial-scale=1.0", 
+    maximum-scal=1.0, user-scalable=no">
+   <!--加到主畫面後:隱藏網址列、全螢幕啟動-->
+    <meta name="apple-moble-web-app-capable" content="yes">
+    <mata name="mobile-web-app-capable" content="yes">
+
+ <!--IOS狀態樣式(黑色全螢幕)-->
+<meta name="apple-moble-web-app-status-bar-style" conten="black-fullscreen">
+<!--APP圖示(512x512px的PNG)-->
+    <link rel="appletouch-icon" href="icon.jpg">
+   <link rel="icon" href="icon.jpg"> 
+   <style>
+  /*消除多於空白與滾動*/
+  body{margin:0;overflow:hidden;background:#000;}
+</style>
+
+
     <link rel="stylesheet" type="text/css" href="style.css">
     <meta charset="utf-8" />
 
